@@ -10,7 +10,7 @@ return [
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
     ],
     'language' => 'en-US',
     'components' => [
@@ -32,10 +32,10 @@ return [
             'enableCsrfValidation' => false,
             // but if you absolutely need it set cookie domain to localhost
             /*
-            'csrfCookie' => [
-                'domain' => 'localhost',
-            ],
-            */
+        'csrfCookie' => [
+        'domain' => 'localhost',
+        ],
+         */
         ],
     ],
     'params' => $params,

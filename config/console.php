@@ -10,7 +10,7 @@ $config = [
     'controllerNamespace' => 'app\commands',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
     ],
     'components' => [
         'cache' => [
@@ -28,12 +28,12 @@ $config = [
     ],
     'params' => $params,
     /*
-    'controllerMap' => [
-        'fixture' => [ // Fixture generation command line.
-            'class' => 'yii\faker\FixtureController',
-        ],
-    ],
-    */
+'controllerMap' => [
+'fixture' => [ // Fixture generation command line.
+'class' => 'yii\faker\FixtureController',
+],
+],
+ */
 ];
 
 if (YII_ENV_DEV) {
